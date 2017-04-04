@@ -1,0 +1,74 @@
+/* Global */
+* {
+    -webkit-box-sizing: border-box !important; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box !important;    /* Firefox, other Gecko */
+    box-sizing: border-box !important;  
+    word-wrap: break-word;
+}
+body {
+    background-color: #ECECEC;
+    font-family: Verdana, sans-serif !important;
+    margin: 0;    
+}
+
+/* Outer */
+#outer { 
+    /*margin: 20px;*/
+    margin: auto; padding: 0;
+    background-color: #FFFFFF;
+}
+
+/* Header */
+header nav {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+header nav>div {
+    padding-left: 0 !important;
+}
+.navbar-brand {
+    font-size: 32px;  
+}
+
+/* Content */
+#content {
+    /*border: solid 1px;*/
+    padding: 20px 0;
+}
+
+/* Footer */
+footer {
+    padding: 30px 0;
+    margin-top: 70px;
+    border-top: 1px solid #E5E5E5;    
+}
+
+.vertical-center {
+    display: inline-block !important;
+    vertical-align: middle;
+}
+
+/* General classes */
+.hidden {display: none;}
+
+.red {color: red;}
+.green {color: green;}
+
+/* ----------------- */
+/* --- Bootstrap --- */
+/* ----------------- */
+.container-fluid {padding: 0;}
+
+nav, .jumbotron {    
+    /*margin: 0;*/
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+    min-width: 0 !important;
+}

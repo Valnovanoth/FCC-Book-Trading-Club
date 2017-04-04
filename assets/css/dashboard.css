@@ -1,0 +1,49 @@
+/* Home */
+/*#content .fa {font-size: 5em;} */
+
+/* Books */
+#books-list * {box-sizing: border-box;}
+
+#books-list {
+    margin-top: 30px;
+}
+
+.book {
+    border: solid 1px;     
+    height: 150px;
+    padding: 0 !important;    
+    position: relative;
+    border-radius: 5px;
+}
+
+/*.book, .book-thumbnail {
+    border-radius: 5px;
+}*/
+
+.book-title {
+    margin: auto;
+    overflow: auto;
+}
+
+.book-control {
+    position: absolute;
+    top: 2px; right: 4px;
+    opacity: 0.6;    
+    }
+    .book-request-trade {zoom: 2;}
+    .book-delete {zoom: 2;}
+
+.book-control:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.book-thumbnail {
+    width: 90%; height: 95%;
+    margin: auto;
+}
+
+/* Icons */
+/*i.fa {
+    font-size: inherit !important;
+}*/
